@@ -5,3 +5,5 @@ RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install -y sshpass nodejs
+RUN apt-get install -y sshpass nodejs
+RUN apt-get clean all
